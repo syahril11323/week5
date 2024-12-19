@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9   ;
+}
+
+#header {
+    background-color: burlywood;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: blue  ;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 15px 0;
+    padding: 10px;
+    border: dotted black ;
+    border-left: 4px solid #ffcc00;
+    background: #ffcc00;
+}
+
+.menu {
+    background-color: #333;
+    text-align: center;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    float: left;
+    text-align: center;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #575757;
+}
+
+.gambar, .koleksi {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.gambar img, .koleksi img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.isi p:first-child::first-letter{
+
+    color: blue;
+    font-weight: bold ;
+    text-align: justify;
+    font-size: 50px;
+    margin: 20px;
+}
+
+h3 {
+    color: #4CAF50;
+}
+
+ol, ul {
+    margin-left: 20px;
+}
+
+.promo {
+    background-color: #ffe082;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#Wa {
+    font-weight: bold;
+    color: #d32f45;
+}
